@@ -1,0 +1,17 @@
+@import "tailwindcss";
+body{
+    margin: 0;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-30%);
+  }
+}
+
+.animate-slide {
+  animation: slide 50s linear infinite;
+}
